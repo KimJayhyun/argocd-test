@@ -5,7 +5,7 @@ metadata:
   labels:
     app: nginx
 spec:
-  replicas: 2  # Nginx Pod 개수
+  replicas: 4  # Nginx Pod 개수
   selector:
     matchLabels:
       app: nginx
